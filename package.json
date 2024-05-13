@@ -1,6 +1,6 @@
 {
-    "name": "t_log",
-    "version": "1.0.0",
+    "name": "time_log",
+    "version": "1.0.1",
     "description": "time log",
     "main": "./dist/t_log.umd.cjs",
     "module": "./dist/t_log.js",
