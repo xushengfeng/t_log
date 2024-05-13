@@ -1,6 +1,6 @@
 {
-    "name": "@xushengfeng/time_log",
-    "version": "1.0.2",
+    "name": "xtimelog",
+    "version": "1.0.3",
     "description": "time log",
     "main": "./dist/t_log.umd.cjs",
     "module": "./dist/t_log.js",
