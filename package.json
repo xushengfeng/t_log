@@ -1,0 +1,34 @@
+{
+    "name": "t_log",
+    "version": "1.0.0",
+    "description": "time log",
+    "main": "./dist/t_log.umd.cjs",
+    "module": "./dist/t_log.js",
+    "exports": {
+        ".": {
+            "import": "./dist/t_log.js",
+            "require": "./dist/t_log.umd.cjs"
+        }
+    },
+    "homepage": "https://github.com/xushengfeng/t_log",
+    "type": "module",
+    "types": "./src/main.ts",
+    "scripts": {
+        "test": "vite ",
+        "dev": "vite --host 0.0.0.0",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [
+        "log"
+    ],
+    "author": {
+        "name": "xsf",
+        "email": "xushengfeng_zg@163.com"
+    },
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "typescript": "^5.4.5",
+        "vite": "^5.2.11"
+    }
+}
