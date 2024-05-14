@@ -1,13 +1,13 @@
 {
     "name": "xtimelog",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "time log",
-    "main": "./dist/t_log.umd.cjs",
-    "module": "./dist/t_log.js",
+    "main": "./dist/xtimelog.umd.cjs",
+    "module": "./dist/xtimelog.js",
     "exports": {
         ".": {
-            "import": "./dist/t_log.js",
-            "require": "./dist/t_log.umd.cjs"
+            "import": "./dist/xtimelog.js",
+            "require": "./dist/xtimelog.umd.cjs"
         }
     },
     "homepage": "https://github.com/xushengfeng/t_log",
