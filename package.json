@@ -1,6 +1,6 @@
 {
     "name": "xtimelog",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "time log",
     "main": "./dist/xtimelog.umd.cjs",
     "module": "./dist/xtimelog.js",
