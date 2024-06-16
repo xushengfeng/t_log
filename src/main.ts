@@ -30,4 +30,7 @@ export class tLog {
         x.push(this.tl.at(-1).t);
         console.log(`${this.name} ${l.map((i) => i.d).reduce((p, c) => p + c, 0)}ms: `, x.join(" "));
     }
+    clear() {
+        this.tl = [];
+    }
 }
